@@ -1,0 +1,42 @@
+{
+    "name": "patieru/signed-url",
+    "description": "Signed (unique) URL package for Laravel.",
+    "keywords": [
+        "laravel",
+        "signed",
+        "url",
+        "unique",
+        "unique link",
+        "unique url"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Ruberandinda Patience",
+            "email":"info@schooloak.com",
+            "homepage":"https://acounting.schooloak.com",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "spatie/url-signer": "^1.0.1",
+        "illuminate/support": ">=5.2",
+        "illuminate/http": ">=5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Patieru\\SignedUrl\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Patieru\\SignedUrl\\Provider"
+            ],
+            "aliases": {
+                "SignedUrl": "Patieru\\SignedUrl\\Facade"
+            }
+        }
+    }
+}
