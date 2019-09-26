@@ -1,9 +1,9 @@
 # Signed (unique) URL package for Laravel.
 
-[![Version](https://poser.pugx.org/patieru/signed-url/v/stable.svg)](https://github.com/patieru/signed-url/releases)
+[![Version](https://poser.pugx.org/patieru12/signed-url/v/stable.svg)](https://github.com/patieru12/signed-url/releases)
 [![StyleCI](https://styleci.io/repos/102290249/shield?style=flat&branch=master)](https://styleci.io/repos/102290249)
-[![Downloads](https://poser.pugx.org/patieru/signed-url/d/total.svg)](https://github.com/patieru/signed-url)
-[![License](https://poser.pugx.org/patieru/signed-url/license.svg)](LICENSE.md)
+[![Downloads](https://poser.pugx.org/patieru12/signed-url/d/total.svg)](https://github.com/patieru12/signed-url)
+[![License](https://poser.pugx.org/patieru12/signed-url/license.svg)](LICENSE.md)
 
 This package can create URLs with a limited lifetime. This is done by adding an expiration date and a signature to the URL.
 
@@ -25,7 +25,7 @@ The URL can be validated with the `validate`-function.
 SignedUrl::validate('https://app.com/protected-route?expires=xxxxxx&signature=xxxxxx');
 ```
 
-The package also provides [a middleware to protect routes](https://github.com/patieru/signed-url#protecting-routes-with-middleware).
+The package also provides [a middleware to protect routes](https://github.com/patieru12/signed-url#protecting-routes-with-middleware).
 
 ## Installation
 
