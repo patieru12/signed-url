@@ -2,7 +2,7 @@
 
 namespace Patieru\SignedUrl;
 
-use Spatie\UrlSigner\MD5UrlSigner;
+use Patieru\UrlSigner\MD5UrlSigner;
 
 class SignedUrl extends MD5UrlSigner
 {
