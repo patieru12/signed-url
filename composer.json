@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "patieru/url-signer": "0.0.*",
+        "patieru/url-signer": "0.0.3",
         "illuminate/support": ">=5.2",
         "illuminate/http": ">=5.2"
     },
